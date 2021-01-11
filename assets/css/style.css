@@ -1,10 +1,25 @@
 img {
   margin: 5px;
-  padding: 10px;
+  padding: 15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.txt-sz {
+  font-size: 23px;
+}
+
+.color {
+  color: #A92D3A;
 }
 
 header {
-  background-image: url("../img/banner1.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/banner1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner1.jpg");
+  background-size: cover;
+  height: 900px;
 }
 
 header .container {
@@ -18,8 +33,8 @@ header .container {
 
 header ul {
   list-style: none;
-  border-top: yellow solid 1px;
-  border-bottom: yellow solid 1px;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +44,7 @@ header ul {
 }
 
 header ul li {
-  color: grey;
+  color: white;
   margin: 25px;
   text-transform: uppercase;
 }
@@ -45,23 +60,20 @@ header ul li {
   border-radius: 15px;
   padding: 10px;
   text-transform: uppercase;
+  margin: 10px;
 }
 
 .bts1 {
-  background-color: red;
+  background-color: #AF2B39;
   color: white;
   border: transparent;
   border-radius: 15px;
   padding: 10px;
   text-transform: uppercase;
+  margin: 10px;
 }
 
 .center-pos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
