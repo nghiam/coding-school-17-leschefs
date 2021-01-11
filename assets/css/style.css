@@ -1,0 +1,67 @@
+img {
+  margin: 5px;
+  padding: 10px;
+}
+
+header {
+  background-image: url("../img/banner1.jpg");
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header ul {
+  list-style: none;
+  border-top: yellow solid 1px;
+  border-bottom: yellow solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header ul li {
+  color: grey;
+  margin: 25px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+
+.bts {
+  background-color: white;
+  border: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.bts1 {
+  background-color: red;
+  color: white;
+  border: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.center-pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
