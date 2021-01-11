@@ -1,6 +1,6 @@
 img {
   margin: 5px;
-  padding: 15px;
+  padding: 25px;
 }
 
 .uppercase {
@@ -41,17 +41,17 @@ header ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 header ul li {
   color: white;
-  margin: 25px;
   text-transform: uppercase;
-}
-
-.text {
-  font-family: 'Courgette', cursive;
-  color: white;
+  margin: 10px;
 }
 
 .bts {
@@ -73,7 +73,36 @@ header ul li {
   margin: 10px;
 }
 
+.price {
+  border: transparent;
+  padding: 5px 20px 5px 20px;
+  font-weight: 700;
+  background-color: #F1E3E5;
+  text-transform: uppercase;
+  color: #AF2B39;
+}
+
+.text {
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+
+.text1 {
+  font-family: 'Courgette', cursive;
+  color: black;
+}
+
 .center-pos {
   text-align: center;
+}
+
+.borderchef {
+  border-top: white solid 1px;
+}
+
+.title {
+  border: black solid 1px;
+  margin: 15px 0px 15px 0px;
+  padding: 20px 0px 20px 0px;
 }
 /*# sourceMappingURL=style.css.map */
