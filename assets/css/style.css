@@ -130,10 +130,15 @@ header ul li {
   height: 900px;
 }
 
+.dotted {
+  padding: 20px 20px 20px 20px;
+  border-bottom: grey dotted 1px;
+}
+
 .table-bg {
   background: url("../img/book_table_bg.jpg");
   background-repeat: no-repeat;
-  height: 500px;
+  height: 550px;
   border-radius: 10px;
   max-width: 750px;
 }
