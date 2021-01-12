@@ -190,14 +190,38 @@ header ul li {
   text-align: center;
 }
 
-.border-contact .border-num {
+.border-num {
   border-top: white solid 1px;
   border-bottom: white solid 1px;
   margin: 0;
   padding: 5px 0px 5px 0px;
 }
 
-.border-contact .text-contact {
-  font-weight: 550;
+.bg-footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/footer_background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/footer_background.jpg");
+  height: 300px;
+  color: white;
+}
+
+.text-popular {
+  padding: 10px;
+  border: white solid 2px;
+  border-radius: 50px;
+  background-color: #AF2B39;
+  text-align: center;
+}
+
+.logo-footer {
+  padding: 10px;
+}
+
+.bg-color {
+  background-color: #AF2B39;
+  height: 80px;
+}
+
+.titre-taille {
+  font-weight: 350;
 }
 /*# sourceMappingURL=style.css.map */
