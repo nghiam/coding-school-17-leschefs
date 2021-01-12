@@ -91,6 +91,18 @@ header ul li {
   text-align: center;
 }
 
+.lorem-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .borderchef {
   border-top: white solid 1px;
 }
@@ -116,5 +128,21 @@ header ul li {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/team_background.jpg");
   background-size: cover;
   height: 900px;
+}
+
+.table-bg {
+  background: url("../img/book_table_bg.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 10px;
+  max-width: 750px;
+}
+
+.txt-white {
+  color: white;
+}
+
+.number {
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
