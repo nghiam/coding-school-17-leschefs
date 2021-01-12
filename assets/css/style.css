@@ -161,4 +161,28 @@ header ul li {
   padding: 15px;
   margin: 5px;
 }
+
+.bg-testi {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/testimonials_background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/testimonials_background.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.border-testi {
+  border: white solid 5px;
+  border-radius: 50px;
+}
+
+.border-testi-text {
+  border: white solid 1px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.border-contact {
+  background-color: #AF2B39;
+  border: black solid 1px;
+}
 /*# sourceMappingURL=style.css.map */
